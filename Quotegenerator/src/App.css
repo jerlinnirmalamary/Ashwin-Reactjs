@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(245, 233, 184);
+    text-align: center;
+}
+.section1{
+    width: 450px;
+    padding: 20px;
+    border: 2px solid rgb(208, 208, 208);
+    background-color:white;
+    text-align: center;
+    border-radius: 10px;
+      
+    }
+.btn{
+    
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgb(239, 238, 238);
+background-color: rgb(193, 242, 244);
+border: 1px solid  rgb(89, 191, 196);
+}
+
