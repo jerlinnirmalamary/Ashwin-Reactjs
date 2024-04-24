@@ -1,0 +1,9 @@
+button{
+    border: none;
+     padding: 12px 20px;
+    background: linear-gradient(0deg,#03045e,#f72585);
+     border-radius: 8px;
+    
+     font-weight: bold;
+     margin: 10px;
+}
