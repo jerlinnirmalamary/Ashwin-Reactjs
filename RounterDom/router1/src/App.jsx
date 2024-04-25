@@ -1,11 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Link, BrowserRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Link, BrowserRouter } from 'react-router-dom';
 import Home from './component/Home';
 import About from './component/About';
 import Parent from './component/Parent';
 import Child from './component/Child';
 function App() {
-
 
   return (
     <>
@@ -21,18 +20,22 @@ function App() {
             </ul>
             <hr />
             <Switch>
-              <Route path='/Home'/> <Home />
+              <Route exact path='/'/> 
+              <Home />
+              <Route path='/about'/>
+              <About />
+              <Route path='/parent'/>
+              <Parent />
+              <Route path='/child'/>
+              <Child />
             </Switch>
           </div>
 
 
       </Router>
-      
-      
-      
       {/* </BrowserRouter> */}
     </>
   )
 }
 
-export default App
+export default App;
